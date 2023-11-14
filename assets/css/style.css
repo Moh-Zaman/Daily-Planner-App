@@ -32,6 +32,7 @@ header {
 .description {
   white-space: pre-wrap;
   width: 1000px !important;
+  border-top: 1px dashed #000000;
 }
 
 .time-block {
@@ -51,6 +52,10 @@ header {
   color: #000000;
   border-top: 1px dashed #000000;
   width: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .past {
@@ -86,3 +91,24 @@ header {
   float: left;
   width: 100px
 }
+
+@media only screen and (max-width: 1400px) {
+  .description {
+    white-space: pre-wrap;
+    width: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .description {
+    white-space: pre-wrap;
+    width: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  body {
+    display: none;
+  }
+}
+
