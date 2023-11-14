@@ -7,12 +7,12 @@ This is a small project to do with a diary planner that allows the user to store
 ## Usage
 
 Steps:
-1. Open link below
+1. Open the link below
 2. Enter information
 3. Press Save
 4. Refresh and information stays
 
-The website can be accessed here: 
+The website can be accessed here: https://moh-zaman.github.io/Daily-Planner-App/
 
 
    
